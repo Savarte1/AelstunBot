@@ -1,5 +1,5 @@
-from discord.ext import commands, tasks
-from ..bot import AelstunBot
+from discord.ext import commands
+from bot import AelstunBot
 
 
 class NSCore(commands.Cog):
