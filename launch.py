@@ -5,7 +5,7 @@ import discord
 from bot import AelstunBot
 
 try:
-    import uvloop # type: ignore
+    import uvloop  # type: ignore
 except ImportError:
     pass
 else:
@@ -29,4 +29,3 @@ def launch():
 
 
 launch()
-
